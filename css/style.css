@@ -1,0 +1,87 @@
+#fondo{
+    position: absolute;
+    width:1280px;
+    height: 720px;
+    top:0px;
+    left:10%;
+    background-image: url("../img/fondo.png");
+}
+#chasis{
+    position: absolute;
+    width:350px;
+    height: 497px;
+    top: 70px;
+    left:10%;
+    background-image: url("../img/chasis.png"); 
+}
+#llanta1{
+    position: absolute;
+    width:113px;
+    height:114px;
+    top: 476px;
+    left:10%;
+    background-image: url("../img/llanta.png"); 
+}
+#llanta2{
+   position: absolute;
+    width:113px;
+    height:114px;
+    top: 476px;
+    left:180px;
+    background-image: url("../img/llanta.png"); 
+}
+#llanta3{
+    position: absolute;
+    width:113px;
+    height:114px;
+    top: 476px;
+    left: 225px;
+    background-image: url("../img/llanta.png"); 
+}
+#llanta4{
+    position: absolute;
+    width:113px;
+    height:114px;
+    top: 476px;
+    left:270px;
+    background-image: url("../img/llanta.png"); 
+}
+#luces{
+     position: absolute;
+    width:24px;
+    height:12px;
+    top: 410px;
+    left:255px;
+    background-image: url("../img/luz.png"); 
+}
+#gancho{
+     position: absolute;
+    width:271px;
+    height:445px;
+    top: 70px;
+    left:314px;
+    background-image: url("../img/gancho.png"); 
+}
+
+
+#butons {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 10;
+    top: 635px;
+}
+
+#butons input {
+    padding: 10px 15px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #86bae4;
+    color:black;
+}
+
+#butons input:hover {
+    opacity: 0.8;
+}
